@@ -109,3 +109,8 @@ These are some of the most commonly used shortcuts in VS Code.
 
 =>  HTML
     >   Emmet Abbrivations: https://docs.emmet.io/abbreviations/syntax/
+
+
+=> CSS
+    > Font, Images, Buttons (Importat Topics)
+    >

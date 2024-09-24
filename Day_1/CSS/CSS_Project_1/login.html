@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login: CSS Project 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #6e756b;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            width: 400px;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: rgb(20, 212, 71);
+            text-align: center;
+        }
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            background-color: #ffffffab;
+        }
+        input:active {
+            border: none;
+        }
+        button {
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            background-color: rgb(20, 212, 71);
+            font-size: 18px;
+        }
+        button:hover {
+            background-color: rgb(26, 139, 30);
+            transition-duration: 2000ms;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Log IN</h1>
+        <form action="" class="flex-col">
+            <input type="email" name="email" id="" placeholder="john@gmail.com">
+            <input type="password" name="password" id="" placeholder="Enter Password">
+
+            <button type="submit">Log In</button>
+            <p>Don't have account? <a href="register.html">Register Here</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
